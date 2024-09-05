@@ -7,8 +7,8 @@ In this project, I have analysed data on stars. The data contained 240 rows and 
 - Star Type - Classification of stars based on their spectral characteristics, temperature, and luminosity.
 - Star Color - The apparent color of a star, determined primarily by its surface temperature.
 - Spectral Class - A classification system that categorizes stars based on their spectra, primarily determined by their surface temperatures.
-There were no missiong values in this data. I created a new column on different star categories based on the radius of the star.
-This the DAX for the new Star Category column.
+-There were no missing values in this data. I created a new column on different star categories based on the radius of the star.
+-This the DAX for the new Star Category column.
 Star Category = 
 SWITCH(
     TRUE(),
